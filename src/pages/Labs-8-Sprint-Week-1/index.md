@@ -1,5 +1,5 @@
 ---
-title: Labs8 Sprint Challenge 
+title: Labs8 Sprint Challenge Week-1
 date: "2018-11-11T19:22:21+0000"
 ---
 
@@ -76,6 +76,6 @@ Data consistency is always a challenge in a NoSQL Database. In SQLite I was alwa
 * [Deployed BackEnd:](https://intense-stream-29923.herokuapp.com/api/database/seekers)
 * [User SignIn](https://cdn.discordapp.com/attachments/508055941145690142/510520021609480192/Week1SignInShow.PNG)
 * [User Register](https://cdn.discordapp.com/attachments/508055941145690142/510520026097254420/Week1SignInshow2.PNG)
-* [FrontEnd Screenshot](https://intense-stream-29923.herokuapp.com/api/database/seekers)
+* [FrontEnd Screenshot](https://cdn.discordapp.com/attachments/508055941145690142/510519407634546688/Capture.PNG)
 * [Realtime Database](https://cdn.discordapp.com/attachments/508060338944606214/510527647315656711/unknown.png)
-* [Auth0 DataBase](https://cdn.discordapp.com/attachments/508060338944606214/510527754106830879/unknown.png)
+* [Authentication DataBase](https://cdn.discordapp.com/attachments/508060338944606214/510527754106830879/unknown.png)
