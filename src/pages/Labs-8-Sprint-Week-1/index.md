@@ -1,6 +1,6 @@
 ---
 title: Labs8 Sprint Challenge 
-date: "2018-11-28T22:40:32.169Z"
+date: "2018-11-11T19:22:21+0000"
 ---
 
 This will be a summary of the individual accomplishments I have contributed to during the first week of the Labs8 Developer Maps Project. This blog post will be going over the many responsiblities and challenges I needed to overcome in order to work complete the necessary requirements for the week of 11/9/2018.
