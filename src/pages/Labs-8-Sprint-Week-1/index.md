@@ -79,3 +79,4 @@ Data consistency is always a challenge in a NoSQL Database. In SQLite I was alwa
 * [FrontEnd Screenshot](https://cdn.discordapp.com/attachments/508055941145690142/510519407634546688/Capture.PNG)
 * [Realtime Database](https://cdn.discordapp.com/attachments/508060338944606214/510527647315656711/unknown.png)
 * [Authentication DataBase](https://cdn.discordapp.com/attachments/508060338944606214/510527754106830879/unknown.png)
+* [Individual Accomplishments](https://cdn.discordapp.com/attachments/508055941145690142/510539835350450206/1541785841-graphs.png)
