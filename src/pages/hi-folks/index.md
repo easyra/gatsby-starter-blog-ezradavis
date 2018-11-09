@@ -1,19 +1,69 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
+title: Labs8 Sprint Challenge 
+date: "2018-11-28T22:40:32.169Z"
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+This will be a summary of the individual accomplishments I have contributed to during the first week of the Labs8 Developer Maps Project. This blog post will be going over the many responsiblities and challenges I needed to overcome in order to work complete the necessary requirements for the week of 11/9/2018
 
-## On deer horse aboard tritely yikes and much
+## Server initialization and Firebase Data Structure
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+My primary responsibilities during the project involved dealing with and setting up the project's backend server. Much of my time spent during the first week was spent understanding the optimal ways to structure my data in Firebase's Realtime Database. Firebase's Realtime database is a NoSQL database which stores all of its data in a JSON Object. This was a major challenge consider I had never had experience with this type of database before and had to figure out how to structure my information in a way where I could access it without being able to rely on the complex querying functionality I had taken for granted in my time working with Relational Database Management Systems like SQLite. Once I tackled this problem, my next step was hooking our Firebase Realtime Database to our projects Node js backend as well as setting up the majority of its routes. Some objectives such as hooking up the Realtime Database to our Node js backend and setting up GET routes were pretty straight forward and did not take long once I had finished reading the docs. Routes involving updating the database however, weren't as easy and required reviewing my learning resources for Firebase multiple times.
+
+
+### FrontEnd Tickets
+
+####Ticket: 1
+
+Date: 11/8/2018
+
+Name: Ezra Davis
+
+Link to PR(s) completed last working day: 
+https://github.com/Lambda-School-Labs/Labs8-DeveloperMap/pull/20
+
+### BackEnd Tickets
+
+####Ticket: 1
+
+Date: 11/6/2018
+
+Name: Ezra Davis
+
+Link to PR(s) completed last working day: https://github.com/Lambda-School-Labs/Labs8-DeveloperMap/pull/4
+
+####Ticket: 2
+
+Date: 11/7/2018
+
+Name: Ezra Davis
+
+Link to PR(s) completed last working day: 
+https://github.com/Lambda-School-Labs/Labs8-DeveloperMap/pull/7
+
+Link to Trello card(s) completed last working day: 
+https://trello.com/c/BgU1KUbg/9-backend
+
+####Ticket: 3
+
+Date: 11/8/2018
+
+Name: Ezra Davis
+
+Link to PR(s) completed last working day: 
+https://github.com/Lambda-School-Labs/Labs8-DeveloperMap/pull/13
+
+Link to Trello card(s) completed last working day: 
+https://trello.com/c/3AYIdrAj/27-signin-and-signup-modal
+
+Link to Trello card(s) being worked on...current day: 
+https://trello.com/c/x5ndYqcg/11-deployed-to-the-web
+
+
+
+
+
+
+
 
 * This however showed weasel
 * Well uncritical so misled
