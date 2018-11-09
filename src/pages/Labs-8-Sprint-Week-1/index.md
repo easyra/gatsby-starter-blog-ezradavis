@@ -7,7 +7,11 @@ This will be a summary of the individual accomplishments I have contributed to d
 
 ## Server initialization and Firebase Data Structure
 
-My primary responsibilities during the project involved dealing with and setting up the project's backend server. Much of my time spent during the first week was spent understanding the optimal ways to structure my data in Firebase's Realtime Database. Firebase's Realtime database is a NoSQL database which stores all of its data in a JSON Object. This was a major challenge consider I had never had experience with this type of database before and had to figure out how to structure my information in a way where I could access it without being able to rely on the complex querying functionality I had taken for granted in my time working with Relational Database Management Systems like SQLite. Once I tackled this problem, my next step was hooking our Firebase Realtime Database to our projects Node js backend as well as setting up the majority of its routes. Some objectives such as hooking up the Realtime Database to our Node js backend and setting up GET routes were pretty straight forward and did not take long once I had finished reading the docs. Routes involving updating the database however, weren't as easy and required reviewing my learning resources for Firebase multiple times.
+My primary responsibilities during the project involved dealing with and setting up the project's backend server. Much of my time spent during the first week was spent understanding the optimal ways to structure my data in Firebase's Realtime Database. Firebase's Realtime database is a NoSQL database which stores all of its data in a JSON Object. 
+
+This was a major challenge consider I had never had experience with this type of database before and had to figure out how to structure my information in a way where I could access it without being able to rely on the complex querying functionality I had taken for granted in my time working with Relational Database Management Systems like SQLite. 
+
+Once I tackled this problem, my next step was hooking our Firebase Realtime Database to our projects Node js backend as well as setting up the majority of its routes. Some objectives such as hooking up the Realtime Database to our Node js backend and setting up GET routes were pretty straight forward and did not take long once I had finished reading the docs. Routes involving updating the database however, weren't as easy and required reviewing my learning resources for Firebase multiple times.
 
 
 ### FrontEnd Tickets
