@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
+    title: "Ezra's Development Blog",
+    author: 'Ezra Davis',
     description: 'A starter blog demonstrating what Gatsby can do.',
     siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
   },
@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: "Ezra's Development Blog",
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,

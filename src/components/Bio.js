@@ -27,7 +27,8 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Ezra Davis</strong> who lives and works at in his mom's house.{' '}
+          Written by <strong>Ezra Davis</strong> who lives and works in his
+          mom's house.{' '}
           <a href="https://twitter.com/ezrarrdavis">
             You should follow him on Twitter
           </a>
