@@ -69,9 +69,9 @@ When I realized the problem I did a complete overhaul of how our data was struct
 Data consistency is always a challenge in a NoSQL Database. In SQLite I was always used to normalizing my data. So if I need to update something, it would always be in the same spot. In a NoSQL Database however, a developer could have multiple duplications of the same data in order to simplify queries. And as a developer myself, I need to make sure my data remained consistent whenever the client would request a POST or a PUT. Firebase does this by sending an object filled with the path names to the data that needs to be updated and the value the path name is being updated with. That way, I can update multiple points of data through a single function. And this is done atomically as well, which means I'm safe from any sort of error on the client end leaving my update incomplete. 
 
 * [Deployed FrontEnd](https://clever-liskov-29b49a.netlify.com/)
-* Deployed BackEnd: https://intense-stream-29923.herokuapp.com/api/database/seekers
-* User SignIn: https://cdn.discordapp.com/attachments/508055941145690142/510520021609480192/Week1SignInShow.PNG
-* User Register: https://cdn.discordapp.com/attachments/508055941145690142/510520026097254420/Week1SignInshow2.PNG
-* FrontEnd Screenshot: https://intense-stream-29923.herokuapp.com/api/database/seekers
-* Realtime Database: https://cdn.discordapp.com/attachments/508060338944606214/510527647315656711/unknown.png
-* Auth0 DataBase: https://cdn.discordapp.com/attachments/508060338944606214/510527754106830879/unknown.png
+* [Deployed BackEnd:](https://intense-stream-29923.herokuapp.com/api/database/seekers)
+* [User SignIn](https://cdn.discordapp.com/attachments/508055941145690142/510520021609480192/Week1SignInShow.PNG)
+* [User Register](https://cdn.discordapp.com/attachments/508055941145690142/510520026097254420/Week1SignInshow2.PNG)
+* [FrontEnd Screenshot](https://intense-stream-29923.herokuapp.com/api/database/seekers)
+* [Realtime Database](https://cdn.discordapp.com/attachments/508060338944606214/510527647315656711/unknown.png)
+* [Auth0 DataBase](https://cdn.discordapp.com/attachments/508060338944606214/510527754106830879/unknown.png)
