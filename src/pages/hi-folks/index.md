@@ -3,7 +3,7 @@ title: Labs8 Sprint Challenge
 date: "2018-11-28T22:40:32.169Z"
 ---
 
-This will be a summary of the individual accomplishments I have contributed to during the first week of the Labs8 Developer Maps Project. This blog post will be going over the many responsiblities and challenges I needed to overcome in order to work complete the necessary requirements for the week of 11/9/2018
+This will be a summary of the individual accomplishments I have contributed to during the first week of the Labs8 Developer Maps Project. This blog post will be going over the many responsiblities and challenges I needed to overcome in order to work complete the necessary requirements for the week of 11/9/2018.
 
 ## Server initialization and Firebase Data Structure
 
@@ -58,100 +58,20 @@ https://trello.com/c/3AYIdrAj/27-signin-and-signup-modal
 Link to Trello card(s) being worked on...current day: 
 https://trello.com/c/x5ndYqcg/11-deployed-to-the-web
 
+##Detailed Analysis Ticket: 3
 
+This ticket was easily the most difficult part of my week. Implementing the functionality required to complete my ticket challenged both my understanding of data structuring and data constituency in a NoSQL database. 
 
+As I began righting my CRUD endpoints, I notice how complicated and counterintuitive I would have had to make my data queries if I wanted to pass important information to my client. As I began looking more and more at the functions I had already written at this point, I realized that I was structuring my data and my functions like I was working SQLite. I needed to start denormalize my data structure, and make it so that i could retrieve data via simpler and more efficient queries. 
 
+When I realized the problem I did a complete overhaul of how our data was structured. Data that I would try and retrieve via complicated queries matching certain types of data with each other, was converted into much simpler duplications of already existing data. This then made the route making portion of the project significantly more Sharif forward. GET's involving companies and employers were significantly easier to make and as well as send to the client. I was now much closer to getting our project to a clear, intuitive, and well-structured data structure and Node js app. My next challenge was making sure my data was consistent whenever I need to update or post new information.
 
+Data consistency is always a challenge in a NoSQL Database. In SQLite I was always used to normalizing my data. So if I need to update something, it would always be in the same spot. In a NoSQL Database however, a developer could have multiple duplications of the same data in order to simplify queries. And as a developer myself, I need to make sure my data remained consistent whenever the client would request a POST or a PUT. Firebase does this by sending an object filled with the path names to the data that needs to be updated and the value the path name is being updated with. That way, I can update multiple points of data through a single function. And this is done atomically as well, which means I'm safe from any sort of error on the client end leaving my update incomplete. 
 
-
-
-* This however showed weasel
-* Well uncritical so misled
-  * this is very interesting
-* Goodness much until that fluid owl
-
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rethoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
-
-### Overlaid the jeepers uselessly much excluding
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
-
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
-
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-### According a funnily until pre-set or arrogant well cheerful
-
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
-
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
-
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rethoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
-
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
-
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
-
-#### Silent delightfully including because before one up barring chameleon
-
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
-
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rethoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+Deployed FrontEnd: https://clever-liskov-29b49a.netlify.com/
+Deployed BackEnd: https://intense-stream-29923.herokuapp.com/api/database/seekers
+User SignIn: https://cdn.discordapp.com/attachments/508055941145690142/510520021609480192/Week1SignInShow.PNG
+User Register: https://cdn.discordapp.com/attachments/508055941145690142/510520026097254420/Week1SignInshow2.PNG
+FrontEnd Screenshot: https://intense-stream-29923.herokuapp.com/api/database/seekers
+Realtime Database: https://cdn.discordapp.com/attachments/508060338944606214/510527647315656711/unknown.png
+Auth0 DataBase: https://cdn.discordapp.com/attachments/508060338944606214/510527754106830879/unknown.png
