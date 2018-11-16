@@ -1,6 +1,6 @@
 ---
 title: Labs8 Sprint Challenge Week-2
-date: "2018-11-11T19:22:21+0000"
+date: "2018-16-11T19:22:21+0000"
 ---
 
 This blog post will summarize the individual accomplishments contributed by me during the second week of the Labs8 Developer Maps Project. I will also be going into the many challenges I faced this week as well as the functionality was was responsible of implementing for the week of 11/12/12.
@@ -62,3 +62,15 @@ Cloud functions are functions that get triggered based on certain events from ou
 
 I initialized the firebase functions using the Firebase CLC and implemented two functions. The first one is an OnDelete connected to our authentication server. This function will activate whenever a user is deleted from the the authentication server and automatically deleted all of the users related data in the database. This function is meant to help with data consistency and remove useless data from our database. The second one is a function that sends an email using nodemailer to anyone who signs up to our website. This one isn't as functional yet due to restricted from google's email services. once that's sorted out though it should be good to go.
 
+# Front and back end servers are connected
+https://firebasestorage.googleapis.com/v0/b/labs8-developermap.appspot.com/o/week-2%20Proof%2Feeeeeeee.PNG?alt=media&token=a39767be-ec35-4103-b148-a8780f5cf081
+
+# Users can create accounts and log in through the front end via OAuth
+
+https://firebasestorage.googleapis.com/v0/b/labs8-developermap.appspot.com/o/week-2%20Proof%2Fsignin.PNG?alt=media&token=c59e8742-6112-421a-95f2-267f2412e3c4
+
+# All APIs and services are connected and can be interacted with through the front end.
+
+https://firebasestorage.googleapis.com/v0/b/labs8-developermap.appspot.com/o/week-2%20Proof%2Fasdawd.PNG?alt=media&token=f69f4407-a29f-4a35-b38b-8fe56571e12e
+
+https://firebasestorage.googleapis.com/v0/b/labs8-developermap.appspot.com/o/week-2%20Proof%2Fmaps.PNG?alt=media&token=a6acd728-bbbc-4e1a-8f19-ba497798ff21
