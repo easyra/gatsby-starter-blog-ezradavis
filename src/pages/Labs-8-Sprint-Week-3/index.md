@@ -97,11 +97,11 @@ https://github.com/Lambda-School-Labs/Labs8-DeveloperMap/pull/79
 
 This ticket mostly involved me hooking up Lauren’s favoriting endpoints to the frontend. The  company page now asking a user if they would like to favorite or unfavorite a company’s post. If they answer yes, then the job post will be added to the database under the signed in user’s favoritePosting JSON object. If they click the heart again, it will ask if the user wants to unfavorite the post and will then proceed to remove the user from the database. The client will also have access to the post ID’s the user has favorited and will indicate to the user whether or not the post has already been favorited or not. 
 
-## Reflection
+## Feature Complete
 
 All of my group members were great to work with. Whenever something needed to be done, the best person for the job would always assign themselves the tasks. Everyone worked efficiently and did not waste any time at all. Whenever someone needed help another person would be there to work them through it.
 
-Our challenges were really more of a rush for time than anything. We were really close to not finishing and the scheduling issue on thursday really threw us off. We also ran into bugs last second that we really didn't have time to fix. The CORS bug 30 minutes before we had to present was extremely stressful for everyone in the group and the sign up breaking last second was very unfortunate. But none of these issue were too bad, and all of those bugs seem to be fixed now. These times of challenges are overcome by all of use working as a team and using each other's idea to make a better product
+Our challenges were really more of a rush for time than anything. We were really close to not finishing and the scheduling issue on thursday really threw us off. We also ran into bugs last second that we really didn't have time to fix. The CORS bug 30 minutes before we had to present was extremely stressful for everyone in the group and the sign up breaking last second was very unfortunate. But none of these issue were too bad, and all of those bugs seem to be fixed now. These kind of challenges are overcome by all of use working as a team and using each other's idea to make a better product.
 
 
 
