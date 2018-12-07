@@ -1,6 +1,6 @@
 ---
 title: Labs8 Sprint Challenge Week-3
-date: "2018-12-12T19:22:21+0000"
+date: "2018-712T19:22:21+0000"
 ---
 
 This blog post will summarize the individual accomplishments contributed by me during the second week of the Labs8 Developer Maps Project. I will also be going into the many challenges I faced this week as well as the functionality was was responsible of implementing for the week of 12/7/18.
@@ -85,7 +85,7 @@ The second function was a PUT that was suppose to replace the DELETE and POST fo
 I didn’t personally feel much of a shift during the 4th week. I’ve pretty much always been debugging for refactoring the backend to fit the client’s needs. I did get to work a lot more with front end when I was hooking up my backend functions to the front end, and I think that was important because it let me know what I needed to do in the future to improve my backend skills. But other than that, not much different than the rest of the week for me. Someone on team was able to write function with firebase and gain some more experience in the process.
 
 [Proof](https://docs.google.com/document/d/1ZCGal4wJqT8iXlERnLJ_JnME_vf0X2kmlaEnTM1Eakg/edit)
-[Whiteboard]()
+[Whiteboard](https://youtu.be/5gV3AHWMuYU)
 [Github Contributions](https://github.com/Lambda-School-Labs/Labs8-DeveloperMap/graphs/contributors)
 
 
