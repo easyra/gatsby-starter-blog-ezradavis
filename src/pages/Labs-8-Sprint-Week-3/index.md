@@ -1,9 +1,9 @@
 ---
-title: Labs8 Sprint Challenge Week-3
+title: Labs8 Sprint Challenge Week-4
 date: "2018-30-11T19:22:21+0000"
 ---
 
-This blog post will summarize the individual accomplishments contributed by me during the second week of the Labs8 Developer Maps Project. I will also be going into the many challenges I faced this week as well as the functionality was was responsible of implementing for the week of 11/30/12.
+This blog post will summarize the individual accomplishments contributed by me during the second week of the Labs8 Developer Maps Project. I will also be going into the many challenges I faced this week as well as the functionality was was responsible of implementing for the week of 11/30/18.
 
 ## BackEnd Refactoring and Favorite Model
 
