@@ -80,9 +80,7 @@ The first two week were probably the most difficult. We were using a FERN Stack,
 Mappajob is a web application designed to help employers in need of employees and employees in need of jobs find each other via geolocation. Our application is built with a FERN stack which means Firebase, Express, React, and Node js. Any company can sign onto our app, after paying a fee, can post up to 5 jobs. These jobs show up on the company’s page, and a job seeker can see this page and click the link on the page to apply for a job. 
 
 #Proof
-[Proof](https://docs.google.com/document/d/12DsgXzGmi04PLaqHgyKvPHsQXP3VL4pqh1Xop0nLjYY/edit?usp=sharing)
-# Whiteboard 
-[WhiteBoard](https://youtu.be/vrN-D5vyw9Q)
+[Proof](https://docs.google.com/document/d/1ZCGal4wJqT8iXlERnLJ_JnME_vf0X2kmlaEnTM1Eakg/edit)
 # Github Contributions
 [Github Contributions](https://github.com/Lambda-School-Labs/Labs8-DeveloperMap/graphs/contributors)
 
